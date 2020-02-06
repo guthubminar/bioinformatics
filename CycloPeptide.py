@@ -64,8 +64,6 @@ def Spectrum(Peptide, isCyclic) :
 	return sorted(Spectrum)
 
 
-
-
 # Check if a peptide's linear/cyclic spectrum is consistent with the given spectrum
 
 def Consistent(peptide, spectrum, isCyclic)  :
@@ -404,6 +402,8 @@ def CPSequence_main(fp) :
 		print s,
 
 #---------------------------------------------------
+
+"""
 fn = raw_input('file? ')
 fp = open(fn, 'r')
 
@@ -412,3 +412,4 @@ fp = open(fn, 'r')
 # CPApproxSequencing_main(fp)
 # Convolution_main(fp)
 CPSequence_main(fp)
+"""
